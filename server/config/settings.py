@@ -91,6 +91,15 @@ SIMPLE_JWT = {
     "BLACKLIST_AFTER_ROTATION": True,
 }
 
-CORS_ALLOWED_ORIGINS = [origin for origin in os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:5173").split(",") if origin]
+# CORS SETTINGS
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://open-book-cdz061vsk-mansi-sonawanes-projects-024a781c.vercel.app",
+    "https://open-book-ochre.vercel.app",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
 RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID", "")
 RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET", "")
