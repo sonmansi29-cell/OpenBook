@@ -8,7 +8,7 @@ OpenBook is a modern full-stack online bookstore application that allows users t
 
 Frontend:https://open-book-cdz061vsk-mansi-sonawanes-projects-024a781c.vercel.app/
 
-Backend API: Coming Soon
+Backend API: https://openbook-api-ay0r.onrender.com
 
 GitHub Repository:
 https://github.com/sonmansi29-cell/OpenBook
